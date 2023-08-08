@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+}
+.container{
+    height: 300px;
+    width: 400px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8em;
+    margin-left: 30em;
+}
+button{
+    margin-top: 125px;
+    margin-left: 100px;
+    width: 200px;
+    display: flexbox;
+    align-items: center;
+    border-radius: 5px;
+    border-color: aqua;
+    border-width: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+   
+}
+button:hover{
+    background-color: brown;
+}
+p{
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 90px;
+}
